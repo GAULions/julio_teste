@@ -33,11 +33,11 @@ $(document).ready(function () {
                                     icon: 'success'
                                 });
                                 motorista();
-                                $('#nome_m').empty();
-                                $('#nasc').empty();
-                                $('#cpf').empty();
-                                $('#m_carro').empty();
-                                $('#sexo').val("0");
+                                $('#nome_m').val('');
+                                $('#nasc').val('');
+                                $('#cpf').val('');
+                                $('#m_carro').val('');
+                                $('#sexo').val('0');
                             } else {
                                 swal({
                                     title: 'Erro',
