@@ -50,7 +50,7 @@ if (!isset($_SESSION['consulta'])) {
                     <div class="modal-body container-fluid" style="max-height: 600px;overflow-y: auto;">
                         <div class="row">
                             <div class="col-lg-offset-2 col-lg-4 col-md-offset-2 col-md-4 col-sm-4 col-xs-4 w3-padding">
-                                <input required id="nome_m" name="nome_m" type="text" placeholder="Nome do Motorista" class="form-control input-sm"/>
+                                <input required id="nome_m" name="nome_m" type="text" placeholder="Nome do Passageiro" class="form-control input-sm"/>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 w3-padding">
                                 <input required id="nasc" name="nasc" type="text" placeholder="Data de Nascimento" class="form-control input-sm"/>
