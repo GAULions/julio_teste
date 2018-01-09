@@ -34,6 +34,10 @@ $(document).ready(function () {
                                     text: 'Passageiro cadastrado com sucesso!',
                                     icon: 'success'
                                 });
+                                $('#nome_m').val('');
+                                $('#nasc').val('');
+                                $('#cpf').val('');
+                                $('#sexo').val('0');
                                 passageiro();
                             } else {
                                 swal({

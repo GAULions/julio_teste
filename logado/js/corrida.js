@@ -19,6 +19,9 @@ $(document).ready(function () {
                             text: 'Corrida cadastrada com sucesso!',
                             icon: 'success'
                         });
+                        $('#motorista').val('0');
+                        $('#passageiro').val('0');
+                        $('#valor').val('');
                         corrida();
                     } else {
                         swal({

@@ -55,7 +55,7 @@ if (!isset($_SESSION['consulta'])) {
                                 <select required id="passageiro" name="passageiro" class="form-control input-sm"></select>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 w3-padding">
-                                <input required name="valor" id="valor" type="text" placeholder="Valor da Corrida" class="form-control input-sm"/>
+                                <input required id="valor" name="valor" type="text" placeholder="Valor da Corrida" class="form-control input-sm"/>
                             </div>
                         </div>
                     </div>
