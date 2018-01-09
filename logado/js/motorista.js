@@ -32,12 +32,12 @@ $(document).ready(function () {
                                     text: 'Motorista cadastrado com sucesso!',
                                     icon: 'success'
                                 });
-                                motorista();
                                 $('#nome_m').val('');
                                 $('#nasc').val('');
                                 $('#cpf').val('');
                                 $('#m_carro').val('');
                                 $('#sexo').val('0');
+                                motorista();
                             } else {
                                 swal({
                                     title: 'Erro',
